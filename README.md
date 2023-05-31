@@ -6,6 +6,14 @@ To launch, gnome-terminal must be installed on the docker image, this can be don
 
 There have been issues with the launch file - still run **roslaunch assignment_2_2022 all_nodes.launch** however, open a new terminal with **gnome-terminal** and open with four tabs. In each tab run consecutively, **rosrun assignment_2_2022 run_node_A1.py** **rosrun assignment_2_2022 run_node_A2.py** **rosrun assignment_2_2022 run_node_B.py** **rosrun assignment_2_2022 run_node_C.py**
 
+# Documentation:
+
+This repository utilises Doxygen to document the four nodes outlined above.
+
+The repository page can be accessed via the following link: https://mackjackenna.github.io/RT2_assignment1/
+
+Failing that, you can clone this repository using **git clone https://github.com/MackJackenna/RT2_assignment1.git**, open a firefox terminal and paste the following file location **file:///root/my_ros/src/assignment_2_2022/docs/html/index.html**.
+
 # Pseudocode for Node_A1 and Node_A2:
 Node_A1:
 
