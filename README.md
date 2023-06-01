@@ -4,7 +4,11 @@ This repoistory outlines four distinct nodes that provide information to the use
 # How to Launch:
 To launch, gnome-terminal must be installed on the docker image, this can be done by running *sudo apt-get update* and then *sudo apt-get install gnome-terminal*. You can then run the whole package using the command **roslaunch assignment_2_2022 all_nodes.launch**. This will open four individual terminals with each of the nodes active.
 
-There have been issues with the launch file - still run **roslaunch assignment_2_2022 all_nodes.launch** however, open a new terminal with **gnome-terminal** and open with four tabs. In each tab run consecutively, **rosrun assignment_2_2022 run_node_A1.py** **rosrun assignment_2_2022 run_node_A2.py** **rosrun assignment_2_2022 run_node_B.py** **rosrun assignment_2_2022 run_node_C.py**
+There have been issues with the launch file - still run **roslaunch assignment_2_2022 all_nodes.launch** however, open a new terminal with **gnome-terminal** and open with four tabs. In each tab run consecutively; 
+* **rosrun assignment_2_2022 run_node_A1.py** 
+* **rosrun assignment_2_2022 run_node_A2.py** 
+* **rosrun assignment_2_2022 run_node_B.py** 
+* **rosrun assignment_2_2022 run_node_C.py**
 
 # Documentation:
 
