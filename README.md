@@ -18,7 +18,7 @@ The repository page can be accessed via the following link: https://mackjackenna
 
 Failing that, you can clone this repository using **git clone https://github.com/MackJackenna/RT2_assignment1.git**, open a firefox terminal and paste the following file location **file:///root/my_ros/src/assignment_2_2022/docs/html/index.html**.
 
-![Doxygen example](https://github.com/MackJackenna/RT2_assignment1/assets/114581476/1b6abb11-1914-4e30-a7d3-adc9211249d0)
+![Doxygen example](https://github.com/MackJackenna/RT2_assignment1/assets/114581476/0d0f1404-0271-442f-a7c6-600ac9367a11)
 
 # Pseudocode for Node_A1 and Node_A2:
 Node_A1:
