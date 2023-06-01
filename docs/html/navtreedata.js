@@ -22,11 +22,12 @@ for the JavaScript code in this file
 */
 var NAVTREE =
 [
-  [ "RT2_Assignmentt1", "index.html", [
+  [ "RT2_Assignment1", "index.html", [
     [ "About Repository:", "md__r_e_a_d_m_e.html", [
       [ "How to Launch:", "md__r_e_a_d_m_e.html#autotoc_md1", null ],
-      [ "Pseudocode for Node_A1 and Node_A2:", "md__r_e_a_d_m_e.html#autotoc_md2", null ],
-      [ "Things to improve:", "md__r_e_a_d_m_e.html#autotoc_md3", null ]
+      [ "Documentation:", "md__r_e_a_d_m_e.html#autotoc_md2", null ],
+      [ "Pseudocode for Node_A1 and Node_A2:", "md__r_e_a_d_m_e.html#autotoc_md3", null ],
+      [ "Things to improve:", "md__r_e_a_d_m_e.html#autotoc_md4", null ]
     ] ],
     [ "Files", "files.html", [
       [ "File List", "files.html", "files_dup" ]

@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.17"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>RT2_Assignmentt1: About Repository:</title>
+<title>RT2_Assignment1: About Repository:</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -25,10 +25,10 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">RT2_Assignmentt1
-   &#160;<span id="projectnumber">1.0</span>
+   <div id="projectname">RT2_Assignment1
+   &#160;<span id="projectnumber">1.1</span>
    </div>
-   <div id="projectbrief">Documentation for RT1_Assignment2</div>
+   <div id="projectbrief">Documentation assignment for RT1_Assignment2</div>
   </td>
  </tr>
  </tbody>
@@ -91,7 +91,19 @@ $(document).ready(function(){initNavTree('md__r_e_a_d_m_e.html',''); initResizab
 <h1><a class="anchor" id="autotoc_md1"></a>
 How to Launch:</h1>
 <p>To launch, gnome-terminal must be installed on the docker image, this can be done by running <em>sudo apt-get update</em> and then <em>sudo apt-get install gnome-terminal</em>. You can then run the whole package using the command <b>roslaunch assignment_2_2022 all_nodes.launch</b>. This will open four individual terminals with each of the nodes active.</p>
+<p>There have been issues with the launch file - still run <b>roslaunch assignment_2_2022 all_nodes.launch</b> however, open a new terminal with <b>gnome-terminal</b> and open with four tabs. In each tab run consecutively;</p><ul>
+<li><b>rosrun assignment_2_2022 run_node_A1.py</b></li>
+<li><b>rosrun assignment_2_2022 run_node_A2.py</b></li>
+<li><b>rosrun assignment_2_2022 run_node_B.py</b></li>
+<li><b>rosrun assignment_2_2022 run_node_C.py</b></li>
+</ul>
 <h1><a class="anchor" id="autotoc_md2"></a>
+Documentation:</h1>
+<p>This repository utilises Doxygen to document the four nodes outlined above.</p>
+<p>The repository page can be accessed via the following link: <a href="https://mackjackenna.github.io/RT2_assignment1/">https://mackjackenna.github.io/RT2_assignment1/</a></p>
+<p>Failing that, you can clone this repository using <b>git clone <a href="https://github.com/MackJackenna/RT2_assignment1.git">https://github.com/MackJackenna/RT2_assignment1.git</a></b>, open a firefox terminal and paste the following file location <b><a href="file:///root/my_ros/src/assignment_2_2022/docs/html/index.html">file:///root/my_ros/src/assignment_2_2022/docs/html/index.html</a></b>.</p>
+<p><img src="https://github.com/MackJackenna/RT2_assignment1/assets/114581476/1b6abb11-1914-4e30-a7d3-adc9211249d0" alt="Doxygen example" class="inline"/></p>
+<h1><a class="anchor" id="autotoc_md3"></a>
 Pseudocode for Node_A1 and Node_A2:</h1>
 <p>Node_A1: </p><pre class="fragment">Import rospy
 Import os
@@ -236,9 +248,14 @@ If __name__ is Equal to '__main__'
     Call Subscriber
 
     Call rospy.spin()
-</pre><h1><a class="anchor" id="autotoc_md3"></a>
+</pre><h1><a class="anchor" id="autotoc_md4"></a>
 Things to improve:</h1>
-<p>Node_C does not use a parameter to change the message rate of display but instead asks for a user integer input. Given a revisit of the package, this would be ammended to include the parameter. Modifying the launch file to include the geometry of the four terminals relative to the screen would help to make the running of the package more fluid, with less work to do for the user. The actual position of the robot seems to be out by 0.5 in the x coordinate, I am unsure whether this is down to my coding or to the simulation environment. </p>
+<ul>
+<li>Node_C does not use a parameter to change the message rate of display but instead asks for a user integer input. Given a revisit of the package, this would be ammended to include the parameter.</li>
+<li>Modifying the launch file to include the geometry of the four terminals relative to the screen would help to make the running of the package more fluid, with less work to do for the user.</li>
+<li>The actual position of the robot seems to be out by 0.5 in the x coordinate, I am unsure whether this is down to my coding or to the simulation environment.</li>
+<li>The <b>all_nodes.launch</b> launch file does not seem to launch the gnome-terminals upon cloning of the repository anymore. Further investiagtion is needed into a solution for this. </li>
+</ul>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->
