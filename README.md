@@ -16,7 +16,7 @@ This repository utilises Doxygen to document the four nodes outlined above.
 
 The repository page can be accessed via the following link: https://mackjackenna.github.io/RT2_assignment1/
 
-Failing that, you can clone this repository using **git clone https://github.com/MackJackenna/RT2_assignment1.git**, open a firefox terminal and paste the following file location **file:///root/my_ros/src/assignment_2_2022/docs/html/index.html**.
+Failing that, you can clone this repository using **git clone https://github.com/MackJackenna/RT2_assignment1.git**, open a firefox terminal and paste the following file location **file:///root/my_ros/src/RT2_assignment1/docs/html/index.html**.
 
 ![Doxygen example](https://github.com/MackJackenna/RT2_assignment1/assets/114581476/0d0f1404-0271-442f-a7c6-600ac9367a11)
 
